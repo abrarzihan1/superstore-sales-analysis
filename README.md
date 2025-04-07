@@ -71,13 +71,13 @@ The project was executed through the following steps:
 
 ## Visualizations
 
-![Sales Trend Over Time](![image](https://github.com/user-attachments/assets/3e882ece-545e-4800-bbc6-4b802c690251)
-)
+![output](https://github.com/user-attachments/assets/23bcfe5b-7610-4fe6-8760-a5e12d364f4d)
+
 
 *Figure 1: Sales Trend Over Time*
 
-![Profit vs. Discount Scatter Plot](![image](https://github.com/user-attachments/assets/b6c0e559-0664-48cd-9144-2d9406c428b9)
-)
+![output0](https://github.com/user-attachments/assets/008953d7-5eaf-44eb-9af5-fa3cad8eaf98)
+
 
 *Figure 2: Profit vs. Discount Analysis*
 
