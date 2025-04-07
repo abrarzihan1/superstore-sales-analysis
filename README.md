@@ -114,6 +114,10 @@ The project was executed through the following steps:
 
 *Figure 2: Profit vs. Discount Analysis*
 
+![image](https://github.com/user-attachments/assets/b502822a-e774-4cab-a167-40f185ee582a)
+
+*Figure 3: Normalized database*
+
 ## Conclusion
 
 Through comprehensive analysis of the Superstore Sales dataset, valuable insights were gained into sales dynamics, customer behavior, and the effectiveness of promotional strategies. These findings can inform data-driven decisions to enhance business performance and strategic planning.
