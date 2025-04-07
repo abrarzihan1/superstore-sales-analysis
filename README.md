@@ -39,7 +39,7 @@ The following tools and libraries were employed in this project:
 - **Power BI**: For developing interactive dashboards and reports.
 - **SQL**: For querying, normalizing and managing data.
 
-Data Modeling in SQL
+## Data Modeling in SQL
 
 As part of the project, the raw dataset was normalized and stored in a PostgreSQL database with the following schema:
 
