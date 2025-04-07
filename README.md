@@ -27,6 +27,7 @@ The primary goals of this analysis are to:
 2. **Determine Peak Sales Periods**: Pinpoint timeframes with the highest sales volumes.
 3. **Assess Impact of Promotional Campaigns**: Evaluate how discounts and promotions influence sales and profitability.
 4. **Segment Analysis**: Understand sales performance across different customer segments and regions.
+5. **Normalize the Dataset**: Store the dataset in a PostgreSQL database using a normalized schema to improve data integrity and query performance.
 
 ## Tools and Technologies
 
@@ -36,7 +37,39 @@ The following tools and libraries were employed in this project:
   - `pandas`: For data manipulation and analysis.
   - `matplotlib` and `seaborn`: For creating static, animated, and interactive visualizations.
 - **Power BI**: For developing interactive dashboards and reports.
-- **SQL**: For querying and managing data.
+- **SQL**: For querying, normalizing and managing data.
+
+Data Modeling in SQL
+
+As part of the project, the raw dataset was normalized and stored in a PostgreSQL database with the following schema:
+
+### ✅ Normalized Tables
+
+- **`customers`**: Customer ID, Name, Segment
+    
+- **`locations`**: Postal Code, City, State, Region, Country
+    
+- **`products`**: Product ID, Name, Category, Sub-Category
+    
+- **`orders`**: Order & shipment details with foreign keys referencing the other tables
+    
+
+### ✅ Constraints
+
+- Primary keys were added to uniquely identify records.
+    
+- Foreign keys were set up to maintain referential integrity.
+    
+
+Example foreign key constraint:
+
+```sql
+ALTER TABLE orders
+ADD CONSTRAINT fk_customer
+FOREIGN KEY ("Customer ID")
+REFERENCES customers ("Customer ID");
+```
+
 
 ## Methodology
 
