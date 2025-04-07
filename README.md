@@ -71,11 +71,13 @@ The project was executed through the following steps:
 
 ## Visualizations
 
-![Sales Trend Over Time](![image](https://github.com/user-attachments/assets/af3092b3-b4f3-41c7-af97-fd1ffc7a6ba7))
+![Sales Trend Over Time](![image](https://github.com/user-attachments/assets/3e882ece-545e-4800-bbc6-4b802c690251)
+)
 
 *Figure 1: Sales Trend Over Time*
 
-![Profit vs. Discount Scatter Plot](![image](https://github.com/user-attachments/assets/682700d1-d34e-4109-847c-4b233d3114f3))
+![Profit vs. Discount Scatter Plot](![image](https://github.com/user-attachments/assets/b6c0e559-0664-48cd-9144-2d9406c428b9)
+)
 
 *Figure 2: Profit vs. Discount Analysis*
 
@@ -96,5 +98,3 @@ Through comprehensive analysis of the Superstore Sales dataset, valuable insight
 Special thanks to [Vivek](https://www.kaggle.com/vivek468) for providing the Superstore Sales dataset on Kaggle.
 
 ---
-
-*Note: Replace placeholder paths (e.g., `path_to_sales_trend_image`) with actual paths to your visualizations. Additionally, update the repository URL (`https://github.com/yourusername/superstore-sales-analysis.git`) with your actual GitHub repository link.* 
